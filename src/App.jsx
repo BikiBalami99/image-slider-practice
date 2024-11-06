@@ -3,7 +3,6 @@ import img1 from "./images/a.jpeg";
 import img2 from "./images/b.jpeg";
 import img3 from "./images/c.jpeg";
 import img4 from "./images/d.jpeg";
-import skillsData from "../skillsData";
 
 const images = [
   { title: "img1", image: img1 },
@@ -16,7 +15,6 @@ function App() {
   return (
     <div>
       <Carousel images={images} />
-      <Carousel images={skillsData[0].certificates} />
     </div>
   );
 }
